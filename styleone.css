@@ -1,0 +1,26 @@
+/* p{
+    text-align: left;
+}
+h1{
+    text-align: center;
+    /* text-decoration:  chartreuse wavy underline; */
+/* }
+
+#p1{
+    font-family: 'Gill Sans', arial;
+}
+#p2{
+    font-family:fantasy;
+}
+     */ 
+     #one{
+       font-size: 30px;
+       line-height: normal;
+       text-transform: lowercase;
+     }
+     #two{
+        font-size: 40px;
+     }
+     #three{
+        font-size: 25px;
+     }

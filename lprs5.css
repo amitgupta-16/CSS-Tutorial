@@ -1,0 +1,35 @@
+.loader{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 20px solid #ffe66d;
+    border-bottom: 20px solid #4ecdc4;
+    transform: rotate(odeg );
+    animation-name: spinAnimate;
+    animation-duration:3s ;
+    animation-timing-function: ease-in;
+    animation-delay:0s ;
+    animation-iteration-count: infinite;
+    position: absolute;
+
+}
+.loa{
+    margin-top: 10vh;
+    position: absolute;
+    margin-left: 13vh;
+}
+#lod1{
+    position: fixed;
+    
+    top: 150px;
+    left: 50px;
+}
+
+@keyframes spinAnimate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}

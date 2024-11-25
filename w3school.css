@@ -1,0 +1,124 @@
+
+.main{
+    height: 100px;
+margin-top: 0px;
+background-color: pink;
+
+}
+
+.nav_main{
+    display: flex;
+    font-size: 3vh;
+    width: 0vh;
+
+
+}
+
+.nav_main li:hover{
+    background-color: #04AA6D;
+}
+
+ul{
+    display: flex;
+    cursor: pointer;
+     margin-top: 2vh; 
+      
+} 
+
+li{
+    padding-top: 2vh;
+    list-style: none;
+    height: 8vh;
+    width: 14vh;
+    padding-left: 2vh;
+    font-weight: 400;
+}
+
+img{
+    height: 10vh;
+    margin-top: 1vh;
+}
+.search{
+    width: 30vh;
+    height: 5vh;
+    border-radius: 5vh;
+    font-size: 20px ;
+    padding-left: 2vh;
+    margin-top: 3.5vh;
+    border: 1px solid gray;
+
+}
+
+.gift{
+     padding-top: 2vh;
+    width: 25vh;
+    padding-left: 8vh;
+    padding-right: 8vh;
+    width: 25vh;
+    font-size: 2vh;
+    font-weight: 400;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    cursor: pointer;
+    height: 5vh;
+    margin-top: 2vh;
+    border-radius: 5vh; 
+    font-family: sans-serif;  
+}
+
+.gift:hover{
+    background-color: #ccc;
+}
+.sign{
+   height: 40px;
+   width: 78px;
+   border-radius: 25px;
+   margin-top: 30px;
+   font-size: 16px;
+   line-height: 1.5;
+   z-index: 0;
+   
+}
+.log{
+    height: 40px;
+    width: 7vw;
+    border-radius: 25px;
+    margin-top: 30px;
+    
+}
+
+.main-btn{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid transparent;
+    background-color: black;
+    color: white;
+    height: 50px;
+    padding-bottom: 2vh;
+
+}
+
+ol{
+   /* display: flex;
+   align-items: center;
+   cursor: pointer;
+   border: 1px solid transparent;
+   background-color: black;
+   color: white;
+   height: 50px;
+   padding-bottom: 2vh; */
+   font-family: sans-serif;
+   font-size: 15px;
+    background-color: transparent;
+      padding-left: 2px; 
+}
+
+ 
+
+
+
+
+    
+
+    

@@ -1,0 +1,66 @@
+/* #box1{
+    height: 500px;
+    width: 100px;
+    background-color: goldenrod;
+    font-size: 100px;
+}
+#box2{
+    height: 50px;
+    width: 20%;
+    background-color: green;
+    margin: 5%;
+    padding: 16%;
+    font-size:3rem;
+    
+
+} */
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    display:inline-block;
+    
+}
+#box1{
+    background-image: url(elephant_photo.jsp.jpg);
+    background-size: cover;
+    
+}
+#box2{
+    background-image: url(elephant_photo.jsp.jpg);
+    background-size: contain;
+    
+}
+#box3{
+    background-image: url(elephant_photo.jsp.jpg);
+    background-size: auto;
+    
+}
+/* #box1{
+    position: static;
+    background-color: red;
+}
+#box2{
+    position: relative;
+    top: 10px;
+    left:10px;
+    background-color:violet ;
+   
+}
+#box3{
+    position: absolute;
+    top: 500px;
+    background-color: greenyellow;
+    left: 20px;
+
+
+}
+#box4{
+    position: fixed;
+    top: 50px;
+    background-color:blue;
+}
+ 
+
+ 

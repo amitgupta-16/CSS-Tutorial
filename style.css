@@ -1,0 +1,16 @@
+ *{
+    color: rgb(40, 40, 213);
+}
+button{
+    color: burlywood;
+    background-color: aliceblue;
+}
+#headingone{
+    color: crimson;
+}
+#headingtwo{
+    color: blueviolet;
+}
+.classsA{
+    color: black;
+} 

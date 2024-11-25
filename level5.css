@@ -1,0 +1,38 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color:aquamarine;
+    border:2px solid black;
+    transition-duration: 5s;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    animation-name:colorAnimate;
+    animation-duration: 0.25s;
+    /* animation-timing-function: ease-in; */
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    /* transition-timing-function: steps 5;
+    transform:rotate(45deg);
+     rotate : y 90deg; */
+    
+}
+
+ div:hover{
+    background-color:blue;
+    color: white; 
+    /* font-size: 25px; */ 
+    /* transform: scaleY(2);  */
+    /* transform: translateX(200px); */
+ } 
+
+
+/* div:active{
+    background-color: pink;
+    color: white;   
+} */
+ @keyframes coloAnimate {
+    from{background-color: red;}
+    to{background-color: bisque;}
+ }
+ 

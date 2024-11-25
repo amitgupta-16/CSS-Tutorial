@@ -1,0 +1,35 @@
+.navbar{
+    background-color: cadetblue;
+    display: flex; 
+    justify-content: space-evenly;
+    height: 50px;
+    
+
+}
+
+a{
+    text-decoration: none;
+    color: black;  
+    
+}
+li{
+    list-style-type: none;
+    display: inline;
+    height: 100px;
+}
+.outer{
+    height: 350px;
+    width: 350px;
+    background-color: darkslateblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.inner{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(139, 61, 61);
+    align-self: flex-start;
+    
+}
